@@ -139,9 +139,9 @@
   </header>
 
 
-  <main class="container lg:mt-40 mt-[960px;] p-5 lg:top-0  mx-auto">
+  <main class="container lg:mt-40 mt-[960px;] md:mt-[600px;]  p-5 lg:top-0 md:text-center  mx-auto">
     <div class="flex gap-3 flex-col lg:flex-row justify-between">
-      <div class="">
+      <div class=" md:text-center text-center lg:text-left">
         <h1 class="text-3xl font-bold mb-4">Deal of the day</h1>
         <p class="font-medium">Contrary to popular belief, is not simply random text. It has roots in a piece of
           classical <br>
@@ -149,7 +149,7 @@
 
 
       </div>
-      <div class=" justify-end ">
+      <div class=" justify-end md:ml-52 ">
         <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
           <div class="flex flex-col">
             <span class="countdown font-mono text-5xl">
@@ -157,18 +157,21 @@
             </span>
             days
           </div>
+          <i class="fa-solid mt-4 fa-ellipsis-vertical"></i>
           <div class="flex flex-col">
             <span class="countdown font-mono text-5xl">
               <span style="--value:10;"></span>
             </span>
             hours
           </div>
+          <i class="fa-solid mt-4 fa-ellipsis-vertical"></i>
           <div class="flex flex-col">
             <span class="countdown font-mono text-5xl">
               <span style="--value:24;"></span>
             </span>
             min
           </div>
+          <i class="fa-solid mt-4 fa-ellipsis-vertical"></i>
           <div class="flex flex-col">
             <span class="countdown font-mono text-5xl">
               <span style="--value:28;"></span>
@@ -185,7 +188,7 @@
     <!-- card -->
 
     <section>
-      <div class="mt-5 flex lg:flex-row md:flex-row flex-col container ml-20 gap-5 ">
+      <div class="mt-5 flex lg:flex-row md:grid md:grid-cols-2 lg:grid-cols-4 flex-col container ml-20 gap-5 ">
         <div class="card w-60 bg-base-100  shadow-xl">
           <figure class="px-10 pt-10">
             <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
